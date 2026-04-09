@@ -28,11 +28,8 @@ To keep the GIMSOI engine stable, all contributors **must**:
 - `/backend`: The core Node.js API and AI logic.
 - `/docs`: Architectural diagrams and mathematical proofs.
 - `.github/workflows`: CI/CD safety checks and branch protection rules.
-
 ## ⚙️ Setup for Teammates
-1. **Clone the repo:** `git clone https://github.com/petekananelo31/gimsoi-ai-agent.git`
-2. **Setup Env:** Create a `.env` in `/backend` with `GOOGLE_GENAI_API_KEY`.
-3. **Install:** Run `npm install` inside the `backend` folder.
-4. **Run:** `npm start` to launch the server on port 3400.
-
----
+1. **Clone & Enter:** `git clone https://github.com/petekananelo31/gimsoi-ai-agent.git && cd gimsoi-ai-agent`
+2. **Environment:** Copy `backend/.env.example` to `backend/.env` and add your `GOOGLE_GENAI_API_KEY`.
+3. **Backend:** Run `cd backend && npm install && npm start`
+4. **Frontend:** Run `cd ../frontend && npm install && npm run dev`
