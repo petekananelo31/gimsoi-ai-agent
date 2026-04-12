@@ -1,35 +1,16 @@
-# GIMSOI AI Agent 🤖
-> **Enterprise-Grade Project Intelligence Engine**
+# React + Vite
 
-This repository contains the core AI engine and modular backend for the GIMSOI project. Built with Gemini 2.5 Flash, it provides predictive analytics to evaluate sprint health and contributor consistency.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 System Features
-- **Predictive Risk Scoring:** Uses proprietary weighted formulas (4.1 & 4.2) to calculate project danger zones before they happen.
-- **Context-Aware Security:** Implements RBAC (Role-Based Access Control) to mask sensitive data based on user roles (PM, Dev, Client).
-- **Automated Governance:** Integrated CI/CD via GitHub Actions to ensure zero-regression deployments.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## ⚖️ Contribution Rules
-To keep the GIMSOI engine stable, all contributors **must**:
-1. **No Direct Pushes:** All work happens on feature branches (`feature/name`).
-2. **Standardized Commits:** Use prefixes like `feat:`, `fix:`, or `docs:`.
-3. **The Green Circle Rule:** You cannot merge if the CI/CD safety check is Red.
-4. **Logic Integrity:** Never change formulas in `src/services` without a peer review.
+## React Compiler
 
-## 🛠 Tech Stack
-- **AI Model:** Google Gemini 2.5 Flash
-- **Orchestration:** Genkit Framework
-- **Backend:** Node.js / Express
-- **Validation:** Zod (Type-safe AI responses)
-- **Database:** PostgreSQL
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 📂 Repository Structure
-- `/backend`: The core Node.js API and AI logic.
-- `/docs`: Architectural diagrams and mathematical proofs.
-- `.github/workflows`: CI/CD safety checks and branch protection rules.
-## ⚙️ Setup for Teammates
-1. **Clone & Enter:** `git clone https://github.com/petekananelo31/gimsoi-ai-agent.git && cd gimsoi-ai-agent`
-2. **Environment:** Copy `backend/.env.example` to `backend/.env` and add your `GOOGLE_GENAI_API_KEY`.
-3. **Backend:** Run `cd backend && npm install && npm start`
-4. **Frontend:** Run `cd ../frontend && npm install && npm run dev`
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
