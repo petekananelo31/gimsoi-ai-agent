@@ -61,4 +61,4 @@ jobs:
     needs: [gitleaks, backend, frontend]
     if: always()
     steps:
-      - run: echo "✅ All passed”
+      - run: echo "All passed”
