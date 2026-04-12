@@ -4,7 +4,7 @@
 
 **DO NOT** open public issues for security vulnerabilities.
 
-Email: security@gimsoi.dev
+Email: petekananelo31@gmail.com
 
 Include:
 - Description of vulnerability
