@@ -1,0 +1,28 @@
+## 📝 Description
+<!-- Brief summary of changes -->
+
+## 🎯 Type
+- [ ] Bug fix
+- [ ] Feature
+- [ ] Security
+- [ ] Documentation
+
+## 🔐 Security Checklist
+- [ ] No hardcoded secrets/API keys
+- [ ] No credentials in code
+- [ ] All inputs validated
+- [ ] No XSS vulnerabilities
+- [ ] Dependencies checked
+
+## ✅ Testing
+- [ ] Unit tests added
+- [ ] Manual testing done
+- [ ] No breaking changes
+
+## 📋 Reviewers
+CODEOWNERS will auto-request.
+
+## ✅ Merge Requirements
+- [ ] All checks passing ✅
+- [ ] 2 approvals received
+- [ ] Branch up-to-date with main
