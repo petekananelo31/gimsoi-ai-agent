@@ -1,4 +1,4 @@
-/**
+/** 
  * GIMSOI Proprietary Logic
  * Formula 4.1: Execution Risk Calculation
  */
