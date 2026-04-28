@@ -117,6 +117,10 @@ app.get('/ai/sprint-summary', rbacMiddleware, async (req, res) => {
   }
 });
 
+const PORT = process.env.PORT || 3400;
+app.listen(PORT, () => console.log(`GIMSOI Backend running on port ${PORT}`));
+
+// this app works
 // --- Server Startup ---
 // Concept: `process.env.PORT` is an environment variable set by hosting platforms
 //          (like Cloud Run). If not set (e.g., during local development), a fallback is used.
